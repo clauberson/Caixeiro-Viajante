@@ -1,29 +1,50 @@
-### IntelliJ IDEA ###
+# Diretórios e arquivos do IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Excluir configurações de ambiente de execução
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Arquivos de compilação
+*.class
 
-### VS Code ###
-.vscode/
+# Logs
+*.log
 
-### Mac OS ###
+# Arquivos de configuração e caches
 .DS_Store
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/shelf
+.idea/vcs.xml
+.idea/compiler.xml
+
+# Configurações de execução/debug
+.idea/runConfigurations/
+
+# Cache de dados de projetos
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+
+# IntelliJ IDEA plugin specific files
+.idea/jsLibraryMappings.xml
+.idea/jarRepositories.xml
+.idea/artifacts/
+.idea/codestyles/
+.idea/scopes/
+.idea/vcs.xml
+
+# Maven
+mvnw
+mvnw.cmd
